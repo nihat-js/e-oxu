@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-oxu - Elektron Kitabxana</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<style>
+		.book-card {
+			transition: transform 0.3s ease, box-shadow 0.3s ease;
+		}
+
+		.book-card:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+		}
+
+		.hero-bg {
+			background: linear-gradient(to bottom right, #1e3a8a, #f97316);
+		}
+
+		/* Loading Animation */
+		.loader {
+			display: none;
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			z-index: 1000;
+		}
+
+		.spinner {
+			width: 60px;
+			height: 60px;
+			border: 8px solid #f3f3f3;
+			border-top: 8px solid #f97316;
+			border-radius: 50%;
+			animation: spin 1s linear infinite;
+			position: relative;
+		}
+
+		.spinner::before {
+			content: '';
+			position: absolute;
+			top: 10px;
+			left: 10px;
+			right: 10px;
+			bottom: 10px;
+			border: 4px solid transparent;
+			border-top: 4px solid #1e3a8a;
+			border-radius: 50%;
+			animation: spin 0.8s linear infinite reverse;
+		}
+
+		@keyframes spin {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		.loader-overlay {
+			display: none;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			z-index: 999;
+		}
+	</style>
+</head>
+
+<body class="bg-gray-100 font-sans">
+	<!-- Loading Animation -->
+	<div class="loader-overlay" id="loaderOverlay"></div>
+	<div class="loader" id="loader">
+		<div class="spinner"></div>
+	</div>
+
+	<!-- Navbar -->
+	<nav class="bg-blue-900 text-white sticky top-0 z-50 shadow-lg">
+		<div class="container mx-auto px-4 py-4 flex justify-between items-center">
+			 <a href="/"> <h1 class="text-2xl font-bold">E-oxu</h1> </a>
+			<div class="space-x-4">
+				<!-- <a href="#" class="hover:text-orange-400 transition">Əsas</a> -->
+				<!-- <a href="#" class="hover:text-orange-400 transition">Kitablar</a> -->
+				<a href="about.html" class="hover:text-orange-400 transition">Haqqında</a>
+				<a href="contact-us.html" class="hover:text-orange-400 transition">Əlaqə</a>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Hero Section -->
+	<section class="hero-bg text-white py-20 text-center">
+		<div class="container mx-auto px-4">
+			<h2 class="text-5xl font-extrabold mb-4">E-oxu ilə Bilik Dünyasına Səyahət</h2>
+			<p class="text-xl mb-8">Yerli və xarici kitabların rəqəmsal xəzinəsini kəşf et!</p>
+			<div class="max-w-md mx-auto">
+				<input id="searchInput" type="text" placeholder="Kitab axtar..."
+					class="w-full p-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-orange-400">
+			</div>
+		</div>
+	</section>
+
+	<!-- Main Section -->
+	<main class="container mx-auto px-4 py-12">
+		<h3 class="text-3xl font-bold text-center mb-8 text-blue-900">Kitab Kolleksiyamız</h3>
+		<div id="bookGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+			<!-- Books will be rendered here -->
+		</div>
+	</main>
+
+	<!-- Footer -->
+	<footer class="bg-blue-900 text-white py-12">
+		<div class="container mx-auto px-4">
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+				<!-- About Section -->
+				<div>
+					<h4 class="text-xl font-semibold mb-4">E-oxu Haqqında</h4>
+					<p class="text-gray-300">
+						E-oxu, yerli və xarici kitabların rəqəmsal platformasıdır.
+						Bilik və mədəniyyət xəzinəsini hər kəsə çatdırmaq bizim missiyamızdır.
+					</p>
+				</div>
+				<!-- Quick Links -->
+				<div>
+					<h4 class="text-xl font-semibold mb-4">Sürətli Keçidlər</h4>
+					<ul class="space-y-2">
+						<li><a href="#" class="hover:text-orange-400 transition">Əsas Səhifə</a></li>
+						<li><a href="#" class="hover:text-orange-400 transition">Kitablar</a></li>
+						<li><a href="#" class="hover:text-orange-400 transition">Haqqında</a></li>
+						<li><a href="#" class="hover:text-orange-400 transition">Əlaqə</a></li>
+					</ul>
+				</div>
+				<!-- Newsletter & Social -->
+				<div>
+					<h4 class="text-xl font-semibold mb-4">Bizimlə Əlaqə</h4>
+					<p class="text-gray-300 mb-4">Yeniliklərdən xəbərdar ol!</p>
+					<div class="flex mb-6">
+						<input type="email" placeholder="E-poçt ünvanı" class="p-2 rounded-l-lg text-gray-900 focus:outline-none">
+						<button class="bg-orange-400 text-white p-2 rounded-r-lg hover:bg-orange-500">
+							Abunə ol
+						</button>
+					</div>
+					<div class="flex space-x-4">
+						<a href="#" class="hover:text-orange-400"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+								<path
+									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 11h-4v4h-2v-4H7v-2h4V7h2v4h4v2z" />
+							</svg></a>
+						<a href="#" class="hover:text-orange-400"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+								<path
+									d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.91 8-4.94 8-9.95z" />
+							</svg></a>
+						<a href="#" class="hover:text-orange-400"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+								<path
+									d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 6.29-5.14 11.31-11.44 11.46A9.03 9.03 0 014 19c1.23-.39 2.39-.92 3.47-1.56-1.19-.02-2.22-.79-2.62-1.9.43.08.86.13 1.31.13.63 0 1.21-.21 1.68-.56-1.26-.25-2.33-1.36-2.33-2.68.39.24.83.41 1.31.43-.76-.51-1.26-1.38-1.26-2.36 0-.52.14-1 .39-1.42 1.43 1.76 3.57 2.91 5.98 3.03-.05-.21-.08-.43-.08-.65 0-1.58 1.28-2.86 2.86-2.86.82 0 1.56.34 2.08.89.65-.13 1.26-.36 1.82-.65-.22.66-.67 1.22-1.26 1.59.58-.07 1.13-.22 1.65-.44-.38.58-.86 1.09-1.41 1.49z" />
+							</svg></a>
+					</div>
+				</div>
+			</div>
+			<div class="border-t border-gray-700 mt-8 pt-6 text-center">
+				<p class="text-gray-300">© 2025 E-oxu. Bütün hüquqlar qorunur.</p>
+				<div class="flex justify-center space-x-4 mt-2">
+					<a href="#" class="hover:text-orange-400">Şərtlər</a>
+					<a href="#" class="hover:text-orange-400">Məxfilik</a>
+					<a href="#" class="hover:text-orange-400">Əlaqə</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		const searchInput = document.getElementById('searchInput');
+		const bookGrid = document.getElementById('bookGrid');
+		const loader = document.getElementById('loader');
+		const loaderOverlay = document.getElementById('loaderOverlay');
+		let books = [];
+
+		// Show loader
+		function showLoader() {
+			loader.style.display = 'block';
+			loaderOverlay.style.display = 'block';
+		}
+
+		// Hide loader
+		function hideLoader() {
+			loader.style.display = 'none';
+			loaderOverlay.style.display = 'none';
+		}
+
+		// Fetch and render books
+		async function fetchBooks() {
+			console.log('Fetching books...');
+			showLoader();
+			try {
+				const response = await fetch('data/books.json');
+				books = await response.json();
+				renderBooks(books);
+			} catch (error) {
+				console.error('Error fetching books:', error);
+			} finally {
+				hideLoader();
+			}
+		}
+
+		// Render books using array.map
+		function renderBooks(bookList) {
+			bookGrid.innerHTML = bookList
+				.map(
+					(book) => `
+                <a href="book-detail.html?id=${book.id}" class="block">
+                    <div class="book-card bg-white rounded-lg shadow-md p-4" 
+                         data-title="${book.title}" 
+                         data-author="${book.author}" 
+                         data-genre="${book.genre}">
+                        <img src="${book.image}" 
+                             alt="${book.title}" 
+                             class="w-full h-64 object-cover rounded-md mb-4">
+                        <h4 class="text-lg font-semibold">${book.title}</h4>
+                        <p class="text-gray-600">${book.author}</p>
+                        <p class="text-sm text-gray-500">${book.genre}</p>
+                    </div>
+                </a>
+            `
+				)
+				.join('');
+			updateGridLayout(bookList.length);
+		}
+
+		// Update grid layout based on number of visible books
+		function updateGridLayout(visibleCount) {
+			bookGrid.classList.remove('grid-cols-1', 'sm:grid-cols-2', 'lg:grid-cols-5');
+			if (visibleCount <= 2) {
+				bookGrid.classList.add('grid-cols-1');
+			} else if (visibleCount <= 4) {
+				bookGrid.classList.add('grid-cols-1', 'sm:grid-cols-2');
+			} else {
+				bookGrid.classList.add('grid-cols-1', 'sm:grid-cols-2', 'lg:grid-cols-5');
+			}
+		}
+
+		// Search functionality
+		searchInput.addEventListener('input', () => {
+			const query = searchInput.value.toLowerCase();
+			const filteredBooks = books.filter(
+				(book) =>
+					book.title.toLowerCase().includes(query) ||
+					book.author.toLowerCase().includes(query) ||
+					book.genre.toLowerCase().includes(query)
+			);
+			renderBooks(filteredBooks);
+		});
+
+		// Initial fetch
+		fetchBooks();
+	</script>
+
+
+</body>
+
+</html>

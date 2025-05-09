@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "title": "Tanış yad adam",
+    "image": "https://www.qanun.az/images/news/compressed/130x200/2025-05-07-12-44-371746607477.jpg?v=1",
+    "author": "Nəriman Əbdülrəhmanlı",
+    "genre": "Roman",
+    "description": "Şəxsi yaddaşla milli kimlik arasında əlaqələri araşdıran psixoloji və fəlsəfi bir roman."
+  },
+  {
+    "id": 1,
+    "title": "Dəli Kür",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4qvo466UEc6YmLJQ4NC0YI8FpAcRaUaaQsw&s",
+    "author": "İsmayıl Şıxlı",
+    "genre": "Roman",
+    "description": "Əsər XIX əsrdə Azərbaycanda cərəyan edən sosial ədalətsizlikləri və maarifçilik mübarizəsini əks etdirir."
+  },
+  {
+    "id": 2,
+    "title": "Kitabi-Dədə Qorqud",
+    "author": "Xalq Əfsanəsi",
+    "genre": "Epik",
+    "image": "https://portal.azertag.az/uploads/news-files/2021/%C4%B0yul/kitab.jpg",
+    "description": "Oğuz türk xalqlarının qəhrəmanlıq dastanlarını toplayan, Azərbaycan ədəbiyyatının zirvələrindən sayılan epik abidə."
+  },
+  {
+    "id": 3,
+    "title": "Xosrov və Şirin",
+    "author": "Nizami Gəncəvi",
+    "genre": "Poeziya",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWPsKbk-_zVEn4HOLYCACwjyr7aCf0p_W6Q&s",
+    "description": "Nizaminin məşhur məhəbbət dastanı; eşq, sadiqlik və fədakarlığın simvolu."
+  },
+  {
+    "id": 4,
+    "title": "Əli və Nino",
+    "author": "Kurban Said",
+    "genre": "Roman",
+    "image": "https://static.insales-cdn.com/images/products/1/5847/626300631/Ali_ve_Nino_kapak_2022.png",
+    "description": "Şərqlə Qərbin qovşağında sevgi və vətən uğrunda fədakarlıq hekayəsi."
+  },
+  {
+    "id": 5,
+    "title": "Qardaşlar Karamazov",
+    "author": "Fyodor Dostoyevski",
+    "genre": "Roman",
+    "image": "https://www.qanun.az/images/news/compressed/2024-09-04-14-38-131725446293.jpg",
+    "description": "İnsan ruhunun ən dərin qatlarını analiz edən, ədalət, iman və ailə münasibətlərini tənqid edən möhtəşəm fəlsəfi roman."
+  },
+  {
+    "id": 6,
+    "title": "Sapiens: İnsanlığın Qısa Tarixi",
+    "author": "Yuval Noah Harari",
+    "genre": "Qeyri-bədii",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sapiens_-_A_Brief_History_of_Humankind.jpg/1200px-Sapiens_-_A_Brief_History_of_Humankind.jpg",
+    "description": "İnsan növünün yaranışından bu günə qədər keçdiyi təkamül və cəmiyyətin formalaşması barədə geniş, anlaşıqlı analiz."
+  },
+  {
+    "id": 7,
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Distopiya",
+    "image": "https://m.media-amazon.com/images/I/71rpa1-kyvL.jpg",
+    "description": "Totalitarizmin qorxunc üzünü göstərən, azadlıq və nəzarət mövzusunu araşdıran gələcək dünyaya dair klassik distopik roman."
+  },
+  {
+    "id": 8,
+    "title": "Leyli və Məcnun",
+    "author": "Nizami Gəncəvi",
+    "genre": "Poeziya",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXenz0CxCIOt-uwiNBi1sv5NXrSX2fzMpP9A&s",
+    "description": "Qədim Şərq ədəbiyyatının əfsanəvi eşq dastanı, məhəbbətin qəhrəmanlıqla yoğrulduğu bir əsər."
+  },
+  {
+    "id": 9,
+    "title": "Cinayət və Cəza",
+    "author": "Fyodor Dostoyevski",
+    "genre": "Roman",
+    "image": "https://www.qanun.az/images/news/compressed/2024-03-16-11-56-211710575781.jpg",
+    "description": "Bir qatilin psixoloji və mənəvi əzabları fonunda cəmiyyətin ədalət və vicdan dəyərlərini sorğulayan başyapıt."
+  },
+  {
+    "id": 10,
+    "title": "Dahi və Marqarita",
+    "author": "Mikhail Bulgakov",
+    "genre": "Roman",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxsyCA5blPqfLiv3ZMGVB-dfrrsa2azguDZQ&s",
+    "description": "İblis, sevgi və azadlıq mövzularını ustalıqla birləşdirən, realizm və fantastikanın sərhədlərini pozan kult roman."
+  }
+]
