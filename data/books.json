@@ -10,7 +10,7 @@
   {
     "id": 1,
     "title": "Dəli Kür",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4qvo466UEc6YmLJQ4NC0YI8FpAcRaUaaQsw&s",
+    "image": "https://covers.openlibrary.org/b/isbn/9789952213690-L.jpg",
     "author": "İsmayıl Şıxlı",
     "genre": "Roman",
     "description": "Əsər XIX əsrdə Azərbaycanda cərəyan edən sosial ədalətsizlikləri və maarifçilik mübarizəsini əks etdirir."
@@ -20,7 +20,7 @@
     "title": "Kitabi-Dədə Qorqud",
     "author": "Xalq Əfsanəsi",
     "genre": "Epik",
-    "image": "https://portal.azertag.az/uploads/news-files/2021/%C4%B0yul/kitab.jpg",
+    "image": "https://covers.openlibrary.org/b/isbn/9780292743236-L.jpg",
     "description": "Oğuz türk xalqlarının qəhrəmanlıq dastanlarını toplayan, Azərbaycan ədəbiyyatının zirvələrindən sayılan epik abidə."
   },
   {
@@ -28,7 +28,7 @@
     "title": "Xosrov və Şirin",
     "author": "Nizami Gəncəvi",
     "genre": "Poeziya",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWPsKbk-_zVEn4HOLYCACwjyr7aCf0p_W6Q&s",
+    "image": "https://covers.openlibrary.org/b/isbn/9781845197803-L.jpg",
     "description": "Nizaminin məşhur məhəbbət dastanı; eşq, sadiqlik və fədakarlığın simvolu."
   },
   {
@@ -36,7 +36,7 @@
     "title": "Əli və Nino",
     "author": "Kurban Said",
     "genre": "Roman",
-    "image": "https://static.insales-cdn.com/images/products/1/5847/626300631/Ali_ve_Nino_kapak_2022.png",
+    "image": "https://covers.openlibrary.org/b/isbn/9781468301397-L.jpg",
     "description": "Şərqlə Qərbin qovşağında sevgi və vətən uğrunda fədakarlıq hekayəsi."
   },
   {
@@ -44,7 +44,7 @@
     "title": "Qardaşlar Karamazov",
     "author": "Fyodor Dostoyevski",
     "genre": "Roman",
-    "image": "https://www.qanun.az/images/news/compressed/2024-09-04-14-38-131725446293.jpg",
+    "image": "https://covers.openlibrary.org/b/isbn/9780374528379-L.jpg",
     "description": "İnsan ruhunun ən dərin qatlarını analiz edən, ədalət, iman və ailə münasibətlərini tənqid edən möhtəşəm fəlsəfi roman."
   },
   {
@@ -52,7 +52,7 @@
     "title": "Sapiens: İnsanlığın Qısa Tarixi",
     "author": "Yuval Noah Harari",
     "genre": "Qeyri-bədii",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sapiens_-_A_Brief_History_of_Humankind.jpg/1200px-Sapiens_-_A_Brief_History_of_Humankind.jpg",
+    "image": "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
     "description": "İnsan növünün yaranışından bu günə qədər keçdiyi təkamül və cəmiyyətin formalaşması barədə geniş, anlaşıqlı analiz."
   },
   {
@@ -60,7 +60,7 @@
     "title": "1984",
     "author": "George Orwell",
     "genre": "Distopiya",
-    "image": "https://m.media-amazon.com/images/I/71rpa1-kyvL.jpg",
+    "image": "https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg",
     "description": "Totalitarizmin qorxunc üzünü göstərən, azadlıq və nəzarət mövzusunu araşdıran gələcək dünyaya dair klassik distopik roman."
   },
   {
@@ -68,7 +68,7 @@
     "title": "Leyli və Məcnun",
     "author": "Nizami Gəncəvi",
     "genre": "Poeziya",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXenz0CxCIOt-uwiNBi1sv5NXrSX2fzMpP9A&s",
+    "image": "https://covers.openlibrary.org/b/isbn/9781845197698-L.jpg",
     "description": "Qədim Şərq ədəbiyyatının əfsanəvi eşq dastanı, məhəbbətin qəhrəmanlıqla yoğrulduğu bir əsər."
   },
   {
@@ -76,7 +76,7 @@
     "title": "Cinayət və Cəza",
     "author": "Fyodor Dostoyevski",
     "genre": "Roman",
-    "image": "https://www.qanun.az/images/news/compressed/2024-03-16-11-56-211710575781.jpg",
+    "image": "https://covers.openlibrary.org/b/isbn/9780486415871-L.jpg",
     "description": "Bir qatilin psixoloji və mənəvi əzabları fonunda cəmiyyətin ədalət və vicdan dəyərlərini sorğulayan başyapıt."
   },
   {
@@ -84,7 +84,87 @@
     "title": "Dahi və Marqarita",
     "author": "Mikhail Bulgakov",
     "genre": "Roman",
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxsyCA5blPqfLiv3ZMGVB-dfrrsa2azguDZQ&s",
+    "image": "https://covers.openlibrary.org/b/isbn/9780143108276-L.jpg",
     "description": "İblis, sevgi və azadlıq mövzularını ustalıqla birləşdirən, realizm və fantastikanın sərhədlərini pozan kult roman."
+  },
+  {
+    "id": 11,
+    "title": "Kiçik Şahzadə",
+    "author": "Antoine de Saint-Exupéry",
+    "genre": "Uşaq Ədəbiyyatı",
+    "image": "https://covers.openlibrary.org/b/isbn/9780156012195-L.jpg",
+    "description": "Bir pilotun səhrada gəzən kiçik bir şahzadə ilə tanışlığını anladan, böyüklərə uşaq gözü ilə baxışı öyrədən ölümsüz bir əsər."
+  },
+  {
+    "id": 12,
+    "title": "Heyvanlar Ferması",
+    "author": "George Orwell",
+    "genre": "Satirik Roman",
+    "image": "https://covers.openlibrary.org/b/isbn/9780451526342-L.jpg",
+    "description": "Bir fermada heyvanların insanlara qarşı üsyan etdiyi, siyasi ideologiyaları və hakimiyyətin korrupsiyasını tənqid edən satirik bir əsər."
+  },
+  {
+    "id": 13,
+    "title": "Don Kixot",
+    "author": "Miguel de Cervantes",
+    "genre": "Roman",
+    "image": "https://covers.openlibrary.org/b/isbn/9780060934347-L.jpg",
+    "description": "Cəngavərlik romanlarını oxuyaraq ağlını itirən bir hidalgonun macəralarını anladan, dünya ədəbiyyatının ilk müasir romanı sayılan şedevr."
+  },
+  {
+    "id": 14,
+    "title": "Böyük Qatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Roman",
+    "image": "https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg",
+    "description": "1920-ci illərin Amerika Cənnətini, uğur xülyasını və itirişi araşdıran, Amerika ədəbiyyatının ən böyük romanlarından biri."
+  },
+  {
+    "id": 15,
+    "title": "Alxemik",
+    "author": "Paulo Coelho",
+    "genre": "Roman",
+    "image": "https://covers.openlibrary.org/b/isbn/9780062315007-L.jpg",
+    "description": "İspaniyalı bir çoban oğlanın xəzinə axtarışında çıxdığı möcüzəli səyahəti anladan, milyonlarla oxucunun ürəyini fəth etmiş ruhani bir roman."
+  },
+  {
+    "id": 16,
+    "title": "Anna Karenina",
+    "author": "Lev Tolstoy",
+    "genre": "Roman",
+    "image": "https://covers.openlibrary.org/b/isbn/9780143035008-L.jpg",
+    "description": "Çar dövrü Rusiyasında cəmiyyət normalarına qarşı çıxan bir qadının faciəvi sevgi hekayəsi; eşq, əxlaq və cəmiyyəti dərindən araşdıran bir şah əsər."
+  },
+  {
+    "id": 17,
+    "title": "Qoca Kişi və Dəniz",
+    "author": "Ernest Hemingway",
+    "genre": "Novella",
+    "image": "https://covers.openlibrary.org/b/isbn/9780684801223-L.jpg",
+    "description": "Kuba balıqçısı Santianonun böyük bir marlin balığı ilə günlərlə süren tənha mücadiləsini anladan, qəhrəmanlıq və inadın poetik nəğməsi."
+  },
+  {
+    "id": 18,
+    "title": "Müharibə və Sülh",
+    "author": "Lev Tolstoy",
+    "genre": "Roman",
+    "image": "https://covers.openlibrary.org/b/isbn/9780199232765-L.jpg",
+    "description": "Napoleon müharibələri fonunda beş aristokrat ailəsinin taleyini izləyən, insan təbiətini, tarixi və azadlığı dərindən incələyən epik şah əsər."
+  },
+  {
+    "id": 19,
+    "title": "Hamlet",
+    "author": "William Shakespeare",
+    "genre": "Dram",
+    "image": "https://covers.openlibrary.org/b/isbn/9780521618748-L.jpg",
+    "description": "Atasının qatilinə qarşı qisas alan Danimarka şahzadəsinin daxili çatışmazlıqlarını araşdıran, dünya dramaturgiyasının ən böyük əsərlərindən biri."
+  },
+  {
+    "id": 20,
+    "title": "Cəsur Yeni Dünya",
+    "author": "Aldous Huxley",
+    "genre": "Distopiya",
+    "image": "https://covers.openlibrary.org/b/isbn/9780060850524-L.jpg",
+    "description": "İnsanların genetik olaraq hazırlandığı, bütün duyğuların süni yolla idarə edildiyi gələcək bir cəmiyyəti canlandıran sarsıdıcı distopik roman."
   }
 ]
